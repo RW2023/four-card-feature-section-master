@@ -7,14 +7,32 @@
 /* End of CSS Reset */
 
 /* Custom CSS */
+/* Google Font Import */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,200&display=swap" );
+
+/* ### Primary Colors */
 :root {
+  /* Primary colors */
   --red: hsl(0, 78%, 62%);
   --cyan: hsl(180, 62%, 55%);
   --orange: hsl(34, 97%, 64%);
   --blue: hsl(212, 86%, 64%);
+
+  /* Neutral Colors */
+  --Very_Dark_Blue: hsl(234, 12%, 34%);
+  --Grayish_Blue: hsl(229, 6%, 66%);
+  --Very_Light_Gray: hsl(0, 0%, 98%);
+  /* Font Family */
+  font-family: "Poppins", sans-serif;
 }
 
-
-
-.attribution { font-size: 11px; text-align: center; }
- .attribution a { color: hsl(228, 45%, 44%); }
+/* attribution Div */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  /* This class is used for the attribution text at the bottom of the page */
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+  /* Setting the color of the link in the attribution */
+}
