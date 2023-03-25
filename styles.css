@@ -37,21 +37,7 @@ html {
   font-family: 'Poppins', sans-serif;
 }
 
-h1 {
-  color: hsl(234, 12%, 34%);
-}
 
-.description {
-  color: hsl(229, 6%, 66%);
-  font-size: 1.5rem;
-}
-
-.svg {
-  width: 5rem;
-  position: absolute;
-  bottom: 2rem;
-  right: 2rem;
-}
 
 
 
@@ -80,9 +66,10 @@ header .title {
 }
 
 header .about-statement p {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: 200;
   color: hsl(229, 6%, 66%);
+  text-align: center;
 }
 
 /* attribution Div */
