@@ -4,11 +4,12 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 /* End of CSS Reset */
 
 /* Custom CSS */
 /* Google Font Import */
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,200&display=swap" );
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,200&display=swap");
 
 /* ### Primary Colors */
 :root {
@@ -39,6 +40,12 @@ html {
 
 h1 {
   color: hsl(234, 12%, 34%);
+}
+
+p {
+  font-weight: 400;
+  color: hsl(229, 6%, 66%);
+  font-weight: 800;
 }
 
 .description {
@@ -91,19 +98,20 @@ header .about-statement p {
   text-align: center;
   /* This class is used for the attribution text at the bottom of the page */
 }
+
 .attribution a {
   color: hsl(228, 45%, 44%);
   /* Setting the color of the link in the attribution */
 }
 
-.card{
+.card {
   text-align: center;
 }
 
-.cardTitle{
+.cardTitle {
   text-align: center;
 }
 
-.cardText{
+.cardText {
   text-align: center;
 }
