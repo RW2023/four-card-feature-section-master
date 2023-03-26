@@ -96,14 +96,30 @@ header .about-statement p {
   /* Setting the color of the link in the attribution */
 }
 
-.card{
-  text-align: center;
+@media (max-width: 375px){
+  .card {
+      text-align: center;
+    }
+  
+    .cardTitle {
+      text-align: center;
+    }
+  
+    .cardText {
+      text-align: center;
+    }
 }
 
-.cardTitle{
-  text-align: center;
-}
-
-.cardText{
-  text-align: center;
+@media (min-width: 1440px){
+  .card {
+      text-align: center;
+    }
+  
+    .cardTitle {
+      text-align: center;
+    }
+  
+    .cardText {
+      text-align: center;
+    }
 }
