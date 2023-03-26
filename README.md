@@ -2,6 +2,8 @@
 
 ![Design preview for the Four card feature section coding challenge](./design/desktop-preview.jpg)
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/c0b0b713-9e3f-4d6f-8845-ee21f07b9429/deploy-status)](https://app.netlify.com/sites/rwfourcardmaster/deploys)
+
 ## Welcome! 👋
 
 Thanks for checking out this front-end coding challenge.
