@@ -95,3 +95,7 @@ header .about-statement p {
   color: hsl(228, 45%, 44%);
   /* Setting the color of the link in the attribution */
 }
+
+.card{
+  text-align: center;
+}
