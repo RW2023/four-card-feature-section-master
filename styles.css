@@ -42,8 +42,9 @@ html {
 
 
 main {
-  width: 100%;
-  padding: 2rem;
+  width: 90%;
+  margin:auto;
+  /* padding: 2rem; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -81,4 +82,61 @@ header .about-statement p {
 .attribution a {
   color: hsl(228, 45%, 44%);
   /* Setting the color of the link in the attribution */
+}
+
+/* cards section  */
+
+#cards{
+  margin: 3rem 0;
+  display: block;
+}
+
+/* general styling for all cards  */
+.card{
+  position: relative;
+  margin: 2rem 0;
+  padding: 2rem;
+  box-shadow: 0 .5rem 2rem rgba(80, 68, 68, 0.541);
+  border-radius: 1rem;
+  height: 22rem;
+}
+
+#cards .card h1{
+  font-size: 1.8rem;
+  color: var(--Very_Dark_Blue);
+  padding: 1rem 0;
+
+}
+
+#cards .card p{
+  font-size: 1.3rem;
+  color: var(--Grayish_Blue);
+  padding: 1rem 0;
+}
+
+#cards .card .card-svg{
+  position: absolute;
+  width: 5rem;
+  right: 2rem;
+  bottom: 3rem;
+}
+
+#cards .card .card-svg img{
+  width: inherit;
+}
+
+#cards .supervisor{
+    border-top: .5rem solid var(--cyan);
+}
+
+#cards .team-builder{
+    border-top: .5rem solid var(--red);
+}
+
+#cards .karma{
+    border-top: .5rem solid var(--orange);
+}
+
+#cards .calculator{
+    border-top: .5rem solid var(--blue);
 }
