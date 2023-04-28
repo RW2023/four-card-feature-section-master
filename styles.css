@@ -43,10 +43,50 @@ h1 {
 }
 
 p {
-  font-weight: 400;
+  font-weight: 600;
   color: hsl(229, 6%, 66%);
-  font-weight: 800;
 }
+
+.card {
+  margin: 7.5rem 8% 0;
+}
+
+.card_title {
+  margin: 0;
+  font-size: 2rem;
+}
+
+#supervisor{
+  border-radius: .5rem;
+    padding: 2.5rem 3rem;
+    margin-bottom: 3rem;
+    box-shadow: 0 1rem 2rem .5rem #dedede;
+    border-top: .5rem solid hsl(180, 62%, 55%);
+}
+
+#teamBuilder{
+  border-radius: .5rem;
+    padding: 2.5rem 3rem;
+    margin-bottom: 3rem;
+    box-shadow: 0 1rem 2rem .5rem #dedede;
+    border-top: .5rem solid hsl(0, 78%, 62%);
+  }
+  
+  #karma{
+    border-radius: .5rem;
+      padding: 2.5rem 3rem;
+      margin-bottom: 3rem;
+      box-shadow: 0 1rem 2rem .5rem #dedede;
+      border-top: .5rem solid hsl(34, 97%, 64%);
+  }
+
+  #calculator{
+      border-radius: .5rem;
+        padding: 2.5rem 3rem;
+        margin-bottom: 3rem;
+        box-shadow: 0 1rem 2rem .5rem #dedede;
+        border-top: .5rem solid hsl(212, 86%, 64%);
+  }
 
 .description {
   color: hsl(229, 6%, 66%);
